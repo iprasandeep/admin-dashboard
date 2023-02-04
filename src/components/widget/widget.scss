@@ -31,6 +31,16 @@
             &.positive {
                 color: green;
             }
+            &.negative {
+                color: red;
+            }
+        }
+        .icon {
+            font-size: 18px;
+            padding: 5px;
+            // background-color: rgba(182, 30, 182, 0.378);
+            align-self: flex-end;
+            border-radius: 5px;
         }
     }
 }
